@@ -1,0 +1,50 @@
+
+============================================================
+   AIR QUALITY DATA ANALYSIS PROJECT - SUMMARY REPORT
+   Delhi Focus + Mumbai Comparison (2015-2020)
+============================================================
+
+DATASET INFO
+------------
+Total Records (after cleaning) : 24850
+Delhi Records                  : 1999
+Mumbai Records                 : 775
+
+DELHI - MONTHLY ANALYSIS
+-------------------------
+Most Polluted Month  : November (AQI: 402.0)
+Least Polluted Month : August  (AQI: 134.4)
+
+CITY COMPARISON
+---------------
+Delhi Average AQI  : 259.5
+Mumbai Average AQI : 105.4
+Delhi is 146.3% more polluted than Mumbai
+
+LINEAR TREND
+------------
+Slope : -0.0570
+Result: AQI is DECREASING over time (improving)
+
+AQI CATEGORY DISTRIBUTION (ALL INDIA)
+--------------------------------------
+Moderate       : 35.53%
+Satisfactory   : 33.09%
+Poor           : 11.19%
+Very Poor      : 9.4%
+Good           : 5.4%
+Severe         : 5.38%
+
+TOP FINDINGS
+------------
+1. Winter months (Nov-Jan) show highest pollution
+2. Monsoon months (Jul-Aug) show lowest pollution  
+3. Delhi AQI is significantly higher than Mumbai
+4. PM2.5 has strongest correlation with AQI
+5. Slight improvement trend observed over years
+
+TOOLS USED
+----------
+Python, Pandas, NumPy, Matplotlib, Scikit-learn
+
+============================================================
